@@ -2,17 +2,27 @@
 
 [All notes taken from pluralsight's course.](https://app.pluralsight.com/library/courses/swift-first-look/table-of-contents)
 
-## [Constants & Variables](#Constants)
-## [Optionals](#Optionals)
-## [Classes & Objects](#Class)
-## [Functions & Closures](#Functions)
-## [Methods](#Methods)
-## [Structures](#Structures)
-## [Enumerations](#Enumerations)
-## [Tuples & Optionals](#Tuples)
-## [Protocols](#Protocols)
-## [Extensions](#Extensions)
-## [Constants & Variables](#Constants)
+ ..*[Constants & Variables](#Constants)
+ 
+ ..*[Optionals](#Optionals)
+ 
+ ..*[Classes & Objects](#Class)
+ 
+  ..*[Functions & Closures](#Functions)
+  
+  ..*[Methods](#Methods)
+  
+  ..* [Structures](#Structures)
+  
+  ..* [Enumerations](#Enumerations)
+
+..* [Tuples & Optionals](#Tuples)
+
+ ..* [Protocols](#Protocols)
+
+..* [Extensions](#Extensions)
+
+ ..* [Constants & Variables](#Constants)
 
 ```swift
 var s1 = "Hello, "
