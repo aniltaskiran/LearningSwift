@@ -26,9 +26,9 @@
 var s1 = "Hello, "
 let s2 = "World!"
 ```
-var: for mutable, you can change s1
+var, for mutable, you can change s1
 
-let: for immutable, you can not change s2
+let, for immutable, you can not change s2
 
 var ile yaratılan değişkenleri değiştirilebilirsiniz fakat let ile yaratılan sabitler değiştirilemez.
 
