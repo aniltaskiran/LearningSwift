@@ -1,6 +1,6 @@
 # LearningSwift
 
-[I did this app with this course.](https://app.pluralsight.com/library/courses/play-by-play-ios-swift-from-scratch/table-of-contents)
+[I did it with this course.](https://app.pluralsight.com/library/courses/play-by-play-ios-swift-from-scratch/table-of-contents)
 
 ### This repo is sample projects about swift. I started learning today 6/6/2017 and I will upload all the projects I will do.
 
