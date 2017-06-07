@@ -1,35 +1,34 @@
 # Data types in Swift
 
-[All notes taken from pluralsight's course.](https://app.pluralsight.com/library/courses/swift-first-look/table-of-contents)
-
- ..* [Constants & Variables](#Constants)
+- [Constants & Variables](#Constants)
  
- ..*[Optionals](#Optionals)
+- [Optionals](#Optionals)
  
- ..*[Classes & Objects](#Class)
+- [Classes & Objects](#Classes)
  
-  ..*[Functions & Closures](#Functions)
+- [Functions & Closures](#Functions)
   
-  ..*[Methods](#Methods)
+- [Methods](#Methods)
   
-  ..* [Structures](#Structures)
+- [Structures](#Structures)
   
-  ..* [Enumerations](#Enumerations)
+- [Enumerations](#Enumerations)
 
-..* [Tuples & Optionals](#Tuples)
+- [Tuples & Optionals](#Tuples)
 
- ..* [Protocols](#Protocols)
+- [Protocols](#Protocols)
 
-..* [Extensions](#Extensions)
+- [Extensions](#Extensions)
 
- ..* [Constants & Variables](#Constants)
+## <a name="Constants"></a> Constants & Variables
 
 ```swift
 var s1 = "Hello, "
 let s2 = "World!"
 ```
-var for mutable, you can change s1
-let for immutable, you can not change s2
+var: for mutable, you can change s1
+
+let: for immutable, you can not change s2
 
 var ile yaratılan değişkenleri değiştirilebilirsiniz fakat let ile yaratılan sabitler değiştirilemez.
 
@@ -91,11 +90,11 @@ stooges.filter({(name: String) -> Bool in
 
 ## <a name="Methods"></a> Methods
 
-*Methods can reference the associated type or instace via self*
+- *Methods can reference the associated type or instace via self*
 
-*First argument to method gets a default local name*
+- *First argument to method gets a default local name*
 
-*Subsequent arguments get local and external names*
+- *Subsequent arguments get local and external names*
 
 ```swift
 class Person {
@@ -125,14 +124,14 @@ p.say("Hello", times: 3)
 
 ## <a name="Structures"></a> Structures
 
-*Relatively simple data*
-..*No need for the "ceremony" of classes & objects*
+- *Relatively simple data*
+- ...No need for the "ceremony" of classes & objects
 
-*Data will be copied instead of referenced*
-..*Sometimes copying is just what you want*
+- *Data will be copied instead of referenced*
+- ...Sometimes copying is just what you want
 
-*Encapsulated data are all value types*
-..*Why not make the container a vaule type too?*
+- *Encapsulated data are all value types*
+- ...Why not make the container a vaule type too?
 
 
 
@@ -251,11 +250,11 @@ else {
 }
 ```
 
-*great for return values*
+- *great for return values*
 
-*unneed for arguments*
+- *unneed for arguments*
 
-*Short-lived, Temporary*
+- *Short-lived, Temporary*
 
 
 ## <a name="Protocols"></a> Protocols
@@ -366,15 +365,15 @@ i.transpoze?(20)
 
 ## <a name="Extensions"></a> Extensions
 
-*Add computed properties*
+- *Add computed properties*
 
-*Define new methods*
+- *Define new methods*
 
-*Define nested types*
+- *Define nested types*
 
-*Protocol comformance*
+- *Protocol comformance*
 
-*No overriding*
+- *No overriding*
 
 ```swift
 extension String {
@@ -391,3 +390,6 @@ extension String {
 let name = "Alex Vollmer"
 name.reverse()
 ```
+
+
+[All notes taken from pluralsight's course.](https://app.pluralsight.com/library/courses/swift-first-look/table-of-contents)
