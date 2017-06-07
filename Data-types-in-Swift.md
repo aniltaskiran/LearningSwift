@@ -125,13 +125,16 @@ p.say("Hello", times: 3)
 ## <a name="Structures"></a> Structures
 
 - *Relatively simple data*
- ...No need for the "ceremony" of classes & objects
+
+   No need for the "ceremony" of classes & objects
 
 - *Data will be copied instead of referenced*
- ...Sometimes copying is just what you want
+
+   Sometimes copying is just what you want
 
 - *Encapsulated data are all value types*
- ...Why not make the container a vaule type too?
+
+   Why not make the container a vaule type too?
 
 
 
