@@ -2,7 +2,7 @@
 
 [All notes taken from pluralsight's course.](https://app.pluralsight.com/library/courses/swift-first-look/table-of-contents)
 
- ..*[Constants & Variables](#Constants)
+ ..* [Constants & Variables](#Constants)
  
  ..*[Optionals](#Optionals)
  
